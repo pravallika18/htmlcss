@@ -52,6 +52,7 @@ h1 i{
 }
 .herounit{
 	background: #D3D3D3;
+	font-family: 'Vollkorn';
 	width: 100%;
 	height:500px;
 	float: right;
@@ -72,7 +73,12 @@ img{
 	width:300px;
 	margin-top:100px;
 	margin-right: 6px;
+
 	
+}
+section{
+	font-family:'arvo' ;
+
 }
 
 h4 a:hover{
@@ -87,7 +93,7 @@ h4 a:hover{
 	margin-left:30px;
 	border-radius: 1%;
 }
-.grid_6 span,h2,h4{
+.grid_6 span,h2,h5{
 	margin-left:30px;
 
 }
@@ -106,8 +112,13 @@ h4 a:hover{
 .footer h3{
 	padding-top:10px;
 	text-align: center;
+	font-family: 'Tangerine';
+	font-size: 29px;
 }
 .footer a{
 	padding-left: 20px;
 	margin-bottom: -12px;
+}
+article{
+	font-family: 'Open Sans',serif;
 }
