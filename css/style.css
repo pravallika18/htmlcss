@@ -20,23 +20,26 @@ li a:hover{
 	margin-top: 50px;
 }
 .navbar img{
-	height: 70px;
-	width: 70px;
+	margin-top: 0px;
+	height: 50px;
+	width: 50px;
 }
 
 body{
 	background-color:#e6e6e6;
-}
 
+}
+/*Three column grid,first division*/
+#container{
+	height:580px;
+	
+}
 .navbar{
 	margin-top: -8px;
 	background-color: #080504;
 	height:100px;
 	width: 100%;
 	position: fixed;
-}
-div{
-	margin: auto;
 }
 
 h1{
@@ -52,7 +55,7 @@ h1 i{
 }
 .herounit{
 	background: #D3D3D3;
-	font-family: 'Vollkorn';
+	font-family: 'Andada';
 	width: 100%;
 	height:500px;
 	float: right;
@@ -76,13 +79,21 @@ img{
 
 	
 }
+/*first division sections*/
 section{
-	font-family:'arvo' ;
+	font-family:'Andada';
 
+
+}
+section p{
+	font-size: 17px;
 }
 
 h4 a:hover{
 	color:#99004d;
+}
+span{
+	font-size: 20px;
 }
 
 
@@ -98,27 +109,29 @@ h4 a:hover{
 
 }
 .grid_6 {
-	height:300px;
+	height:250px;
 	padding-top: 30px;
 	margin-left: 20px;
+	margin-bottom: 50px;
 
 }
 .footer{
-	height: 50px;
-	width:100%;
+	margin-left: -5px;
+	height: 80px;
+	width:102%;
 	background:#333;
-	text-align: center;
-}
+	bottom: 0px;
+	}
 .footer h3{
-	padding-top:10px;
+	padding-top: 10px;
 	text-align: center;
-	font-family: 'Tangerine';
+	font-family: 'Tangerine',serif;
 	font-size: 29px;
 }
 .footer a{
 	padding-left: 20px;
-	margin-bottom: -12px;
 }
+/*third division*/
 article{
 	font-family: 'Open Sans',serif;
 }
